@@ -15,9 +15,9 @@ public class Main {
             throw new IllegalArgumentException("file to read from is missing");
         }
 
-        final BufferedImage image = ImageIO.read(new File(args[0]));
+        BufferedImage image = ImageIO.read(new File(args[0]));
 
-        final StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
         int x = 0;
         int y = 0;
